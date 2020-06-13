@@ -13,7 +13,7 @@ const App = () => {
     const style = { backgroundColor: 'blue', color: 'white'}
     const labelText = { label: 'Enter name:'}
     //this is the same of const App function() {}
-  return (
+  return ( 
   <div>
       <label className="label" htmlFor="name">{labelText.label}</label>
       <input id="name" type="text" />
